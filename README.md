@@ -72,10 +72,6 @@ ScrollingNavbar(
 The Scrolling Navbar takes an [AppBar()](https://api.flutter.dev/flutter/material/AppBar-class.html) as a parameter so that you can customize it to your hearts content
 
 
-
-
-![alt text](https://media.discordapp.net/attachments/704804916438499378/812432106814177301/unknown.png?width=1684&height=1010)
-
 ```dart
 ScrollingNavbar(
     appBar: AppBar(
@@ -122,3 +118,7 @@ ScrollingNavbar(
     ],
 ),
 ```
+
+
+
+![alt text](https://media.discordapp.net/attachments/704804916438499378/812432106814177301/unknown.png?width=1684&height=1010)
