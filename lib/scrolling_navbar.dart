@@ -66,7 +66,8 @@ class _ScrollingNavbarState extends State<ScrollingNavbar> {
                         padding: const EdgeInsets.all(8.0),
                         child: InkWell(
                             onTap: () => navigateTo(index),
-                            child: Text(widget.children[index].toString())),
+                            child: Text(widget.children[index].toString(),
+                                style: widget.appBar.titleTextStyle)),
                       );
                     },
                   )
@@ -82,7 +83,8 @@ class _ScrollingNavbarState extends State<ScrollingNavbar> {
                         padding: const EdgeInsets.all(8.0),
                         child: InkWell(
                             onTap: () => navigateTo(index),
-                            child: Text(widget.headings[index])),
+                            child: Text(widget.headings[index],
+                                style: widget.appBar.titleTextStyle)),
                       );
                     },
                   )

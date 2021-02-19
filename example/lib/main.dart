@@ -11,7 +11,37 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: ScrollingNavbar(
-          appBar: AppBar(),
+          appBar: AppBar(
+            // Increase the height
+            toolbarHeight: 70,
+
+            // Add that snazzy logo
+            leading: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Image.network(
+                  'https://d3mds3ychln71.cloudfront.net/img/flutter-logo@3x.png'),
+            ),
+
+            // Fatten it up
+            leadingWidth: 200,
+
+            // Change the background color
+            backgroundColor: Colors.red,
+
+            // Style the links
+            titleTextStyle: TextStyle(fontSize: 24, color: Colors.blue[900]),
+
+            // Throw some buttons after the fact
+            actions: <Widget>[
+              IconButton(
+                icon: Icon(Icons.shopping_cart),
+                tooltip: 'Open shopping cart',
+                onPressed: () {
+                  // handle the press
+                },
+              ),
+            ],
+          ),
           headings: [
             'Page 1',
             'Page 2',
