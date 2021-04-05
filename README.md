@@ -5,7 +5,7 @@ A package that creates a scrolling navbar, useful for landing pages and cool peo
 
 
 
-![alt text](https://media.discordapp.net/attachments/704804916438499378/812424684011520000/2021-02-19_15.44.11.gif?width=1664&height=1011)
+![alt text](https://github.com/Team-Crushing-It/scrolling_navbar/blob/main/s1.gif)
 
 ## Basic Case
 
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
 
 To change the name of the links, supply a list of strings into the header variable
 
-![alt text](https://media.discordapp.net/attachments/704804916438499378/812424684011520000/2021-02-19_15.44.11.gif?width=1664&height=1011)
+![alt text](https://github.com/Team-Crushing-It/scrolling_navbar/blob/main/s2.gif)
 
 ```dart
 
