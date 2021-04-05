@@ -5,7 +5,7 @@ A package that creates a scrolling navbar, useful for landing pages and cool peo
 
 
 
-![alt text](https://media.discordapp.net/attachments/704804916438499378/812427147310399538/2021-02-19_15.52.46.gif?width=1666&height=1009)
+![alt text](https://media.discordapp.net/attachments/704804916438499378/812424684011520000/2021-02-19_15.44.11.gif?width=1664&height=1011)
 
 ## Basic Case
 
